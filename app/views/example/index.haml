@@ -1,0 +1,370 @@
+.eg
+  %h1 PLUS2 coding test
+
+  A contrived example which nevertheless exercises some core Rails Skillz.
+
+  %h2 part 1
+  In order to demo our groundbreaking FizzBuzz&trade; technology, I want a page that looks like the sketch below.
+
+  %ul
+    %li There's a form for saying how high FizzBuzz&trade; should go. The user must nominate how high to go.
+    %li You can also put your name into the form for a personalised FizzBuzz&trade;, but that's optional.
+
+  %h3 The FizzBuzz&trade; specification
+
+  FizzBuzz&trade; is the our hottest IP, but its rules are deceptively simple.
+
+  %ul
+    %li If the number is divisible by 3 print "Fizz"
+    %li If the number is divisible by 5 print "Buzz"
+    %li
+      If the number is divisible by 3
+      %em and
+      5 print "FizzBuzz&trade;"
+
+  The FizzBuzz&trade; page should go here:
+  %a(href="/fizzbuzz") FizzBuzz page
+
+  .end-of-section
+    Once you have this part working, please commit and push your code.
+
+  %h2 part 2
+
+  %ul
+    %li We want to save users' FizzBuzzes&trade;.
+    %li There should be a page to allow them to come back and show their FizzBuzzes&trade; to their mothers.
+    %li Sqlite is fine for this.
+
+  The FizzBuzz&trade; list page should go here:
+  %a(href="/fizzbuzzes") FizzBuzzes page
+
+  .end-of-section
+    Once you have this part working, please commit and push your code.
+
+  %h2 bonus part
+
+  %ul
+    %li My nephew told me about "AJAX". Is it like Facebook?
+    %li I want the form to work with Ajax... our ISO9001 certificate only lets us use jQuery, so please use that.
+
+  .end-of-section
+    Once you have this part working, please commit and push your code.
+
+
+
+  %h1 the sketch:
+
+  %h2 Make your very own FizzBuzz&trade;
+
+  How high? [____________________]
+  %br
+  Your name? [____________________]
+  %br
+  [ submit ]
+  %br
+  %br
+  %br
+
+  %h2 Your FizzBuzz&trade; is below, [name]
+
+  %table
+    %tr
+      %td 1
+      %td 
+    %tr
+      %td 2
+      %td 
+    %tr
+      %td 3
+      %td Fizz
+    %tr
+      %td 4
+      %td 
+    %tr
+      %td 5
+      %td Buzz
+    %tr
+      %td 6
+      %td Fizz
+    %tr
+      %td 7
+      %td 
+    %tr
+      %td 8
+      %td 
+    %tr
+      %td 9
+      %td Fizz
+    %tr
+      %td 10
+      %td Buzz
+    %tr
+      %td 11
+      %td 
+    %tr
+      %td 12
+      %td Fizz
+    %tr
+      %td 13
+      %td 
+    %tr
+      %td 14
+      %td 
+    %tr.fizzbuzz
+      %td 15
+      %td FizzBuzz&trade;
+    %tr
+      %td 16
+      %td 
+    %tr
+      %td 17
+      %td 
+    %tr
+      %td 18
+      %td Fizz
+    %tr
+      %td 19
+      %td 
+    %tr
+      %td 20
+      %td Buzz
+    %tr
+      %td 21
+      %td Fizz
+    %tr
+      %td 22
+      %td 
+    %tr
+      %td 23
+      %td 
+    %tr
+      %td 24
+      %td Fizz
+    %tr
+      %td 25
+      %td Buzz
+    %tr
+      %td 26
+      %td 
+    %tr
+      %td 27
+      %td Fizz
+    %tr
+      %td 28
+      %td 
+    %tr
+      %td 29
+      %td 
+    %tr.fizzbuzz
+      %td 30
+      %td FizzBuzz&trade;
+    %tr
+      %td 31
+      %td 
+    %tr
+      %td 32
+      %td 
+    %tr
+      %td 33
+      %td Fizz
+    %tr
+      %td 34
+      %td 
+    %tr
+      %td 35
+      %td Buzz
+    %tr
+      %td 36
+      %td Fizz
+    %tr
+      %td 37
+      %td 
+    %tr
+      %td 38
+      %td 
+    %tr
+      %td 39
+      %td Fizz
+    %tr
+      %td 40
+      %td Buzz
+    %tr
+      %td 41
+      %td 
+    %tr
+      %td 42
+      %td Fizz
+    %tr
+      %td 43
+      %td 
+    %tr
+      %td 44
+      %td 
+    %tr.fizzbuzz
+      %td 45
+      %td FizzBuzz&trade;
+    %tr
+      %td 46
+      %td 
+    %tr
+      %td 47
+      %td 
+    %tr
+      %td 48
+      %td Fizz
+    %tr
+      %td 49
+      %td 
+    %tr
+      %td 50
+      %td Buzz
+    %tr
+      %td 51
+      %td Fizz
+    %tr
+      %td 52
+      %td 
+    %tr
+      %td 53
+      %td 
+    %tr
+      %td 54
+      %td Fizz
+    %tr
+      %td 55
+      %td Buzz
+    %tr
+      %td 56
+      %td 
+    %tr
+      %td 57
+      %td Fizz
+    %tr
+      %td 58
+      %td 
+    %tr
+      %td 59
+      %td 
+    %tr.fizzbuzz
+      %td 60
+      %td FizzBuzz&trade;
+    %tr
+      %td 61
+      %td 
+    %tr
+      %td 62
+      %td 
+    %tr
+      %td 63
+      %td Fizz
+    %tr
+      %td 64
+      %td 
+    %tr
+      %td 65
+      %td Buzz
+    %tr
+      %td 66
+      %td Fizz
+    %tr
+      %td 67
+      %td 
+    %tr
+      %td 68
+      %td 
+    %tr
+      %td 69
+      %td Fizz
+    %tr
+      %td 70
+      %td Buzz
+    %tr
+      %td 71
+      %td 
+    %tr
+      %td 72
+      %td Fizz
+    %tr
+      %td 73
+      %td 
+    %tr
+      %td 74
+      %td 
+    %tr.fizzbuzz
+      %td 75
+      %td FizzBuzz&trade;
+    %tr
+      %td 76
+      %td 
+    %tr
+      %td 77
+      %td 
+    %tr
+      %td 78
+      %td Fizz
+    %tr
+      %td 79
+      %td 
+    %tr
+      %td 80
+      %td Buzz
+    %tr
+      %td 81
+      %td Fizz
+    %tr
+      %td 82
+      %td 
+    %tr
+      %td 83
+      %td 
+    %tr
+      %td 84
+      %td Fizz
+    %tr
+      %td 85
+      %td Buzz
+    %tr
+      %td 86
+      %td 
+    %tr
+      %td 87
+      %td Fizz
+    %tr
+      %td 88
+      %td 
+    %tr
+      %td 89
+      %td 
+    %tr.fizzbuzz
+      %td 90
+      %td FizzBuzz&trade;
+    %tr
+      %td 91
+      %td 
+    %tr
+      %td 92
+      %td 
+    %tr
+      %td 93
+      %td Fizz
+    %tr
+      %td 94
+      %td 
+    %tr
+      %td 95
+      %td Buzz
+    %tr
+      %td 96
+      %td Fizz
+    %tr
+      %td 97
+      %td 
+    %tr
+      %td 98
+      %td 
+    %tr
+      %td 99
+      %td Fizz
+    %tr
+      %td 100
+      %td Buzz

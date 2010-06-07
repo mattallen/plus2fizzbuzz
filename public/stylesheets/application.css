@@ -1,0 +1,9 @@
+.eg {
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+  .eg .end-of-section {
+    border: 1px dashed red;
+    margin: 1em;
+    padding: 1em;
+    color: red; }
+  .eg .fizzbuzz {
+    color: green; }
